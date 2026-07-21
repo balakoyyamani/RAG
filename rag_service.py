@@ -23,10 +23,10 @@ def add_collection(collections,embeddings,documents):
         )
     print("collection added")
 
-def get_query(collections,query_vector):
+def get_query(collections,query_vector,Top_K):
     response=collections.query(
         query_embeddings=query_vector,
-        n_results=2
+        n_results=Top_K
     )
     print("query recieved")
     print(response["documents"][0])

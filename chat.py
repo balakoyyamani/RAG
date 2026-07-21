@@ -31,7 +31,7 @@ while True:
     history.append(f"user : {usr_msg}")
     
     query_vector=get_embed(usr_msg)
-    embedd_response=get_query(collection,query_vector)
+    embedd_response=get_query(collection,query_vector,3)
     context="\n\n".join(embedd_response["documents"][0])
     history_text="\n\n".join(load_history())
     prompt=f"""{system_prompt}

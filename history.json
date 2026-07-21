@@ -28,5 +28,9 @@
      "user : hello did you know my performance in my college",
      "AI assist : Your performance in college is represented by a CGPA of 8.68.",
      "user : what is my last query",
-     "AI assist : Your last query was hello did you know my performance in my college"
+     "AI assist : Your last query was hello did you know my performance in my college",
+     "user : can you assist with what?",
+     "AI assist : I can assist you with Java and your preparation for campus placements as a software engineer aspirant.",
+     "user : thank you",
+     "AI assist : You are welcome."
 ]
